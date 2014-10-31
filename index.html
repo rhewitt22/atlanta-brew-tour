@@ -13,6 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato|Ubuntu' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -22,33 +23,40 @@
       <![endif]-->
       <header>
         <h1>Atlanta Brewery Tours</h1>
-
       </header>
 
       <section id="map"></section>
 
-      <section id="listing"></section>
+      <section id="listing">
+        <p>The tour/tasting schedules below represent a normal week.  They do not take Holidays or special events into account.</p>
+      </section>
       
 
       <script id="template" type="text/x-handlebars-template">​
       {{#each features}}
+      <a href="{{ properties.url }}">
       <div class="brewery"> 
-        <a href="{{ properties.url }}"><h2>{{ properties.name }}</h2></a>
+        <h2>{{ properties.name }}</h2>
         <img class="logo" src="{{properties.logo}}">
-        {{#if properties.open }}
-        <img class="were-open" src="images/were-open.jpg" alt="">
-        {{/if}}
-        <p>Tours: {{#if properties.cost}}${{properties.cost}}{{/if}}</p>
-        <ul>
-        {{#each properties.schedule}}
-          <li>{{capitalize this.day}}: {{twelve-hour this.open}} - {{twelve-hour this.close}}</li>
-        {{/each}}
-        </ul>
-
+        
+        <div class="tours">
+          {{#if properties.open }}
+          <img class="were-open sign" src="images/were-open.jpg" alt="">
+          {{else}}
+          <img class="were-closed sign" src="images/were-closed.png" alt="">
+          {{/if}}
+          <p>Tours: {{#if properties.cost}}${{properties.cost}}{{/if}}</p>
+          <ul>
+          {{#each properties.schedule}}
+            <li>{{capitalize this.day}}: {{twelve-hour this.open}} - {{twelve-hour this.close}}</li>
+          {{/each}}
+          </ul>
+        </div>
         {{#if properties.notes}}
-        *{{properties.notes}}
+        <p>*{{properties.notes}}</p>
         {{/if}}
       </div>​
+      </a>
       {{/each}}
 ​      </script>
 

@@ -21,6 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Ubuntu';
 }
 
 /*
@@ -108,12 +109,71 @@ html, body {
   height: 50%;
 }
 
-.logo {
-  max-width:200px;
+#listing > p {
+  text-align: left;
+  padding: 3%;
 }
 
-.were-open {
-  max-width:200px;
+header {
+  padding: 3%;
+}
+
+.brewery {
+  padding: 3%;
+  clear: both;
+}
+
+.tours {
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 200px;
+  display: block;
+  margin: 0.5em auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+a {
+  color: #a27b1f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cb9b27;
+}
+
+@media (min-width: 450px) {
+  h2 {
+    text-align: left;
+    clear: both;
+  }
+
+  .brewery {
+    margin: auto;
+    max-width: 500px;
+    clear: both;
+  }
+  .logo {
+    display: inline;
+
+  }
+  .tours {
+    float: right;
+    clear: both;
+  }
 }
 
 /* ==========================================================================
