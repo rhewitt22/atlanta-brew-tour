@@ -18,24 +18,24 @@
         "cost": 10,
         "schedule": {
           "wednesday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "thursday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "friday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "saturday": {
-            "open": "3:30",
-            "close": "4:30"
+            "open": "14:30",
+            "close": "16:30"
           },
           "sunday": {
-            "open": "2:30",
-            "close": "4:30"
+            "open": "14:30",
+            "close": "16:30"
           }
         }
       },
@@ -58,16 +58,16 @@
         "cost": 10,
         "schedule": {
           "monday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "thursday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "4:00"
+            "open": "14:00",
+            "close": "16:00"
           }
         }
       },
@@ -90,12 +90,12 @@
         "cost": 12,
         "schedule": {
           "friday": {
-            "open": "5:30",
-            "close": "8:00"
+            "open": "17:30",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "2:30",
-            "close": "4:30"
+            "open": "14:30",
+            "close": "16:30"
           }
         },
         "notes": "Ride your bike for $2 off!"
@@ -119,24 +119,24 @@
         "cost": 10,
         "schedule": {
           "monday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "thursday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "friday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "11:00am",
-            "close": "5:00"
+            "open": "11:00",
+            "close": "17:00"
           },
           "sunday": {
-            "open": "1:00",
-            "close": "4:00"
+            "open": "13:00",
+            "close": "16:00"
           }
         }
       },
@@ -159,24 +159,24 @@
         "cost": 10,
         "schedule": {
           "tuesday": {
-            "open": "5:00",
-            "close": "9:00"
+            "open": "17:00",
+            "close": "21:00"
           },
           "wednesday": {
-            "open": "5:00",
-            "close": "9:00"
+            "open": "17:00",
+            "close": "21:00"
           },
           "thursday": {
-            "open": "5:00",
-            "close": "9:00"
+            "open": "17:00",
+            "close": "21:00"
           },
           "friday": {
-            "open": "5:00",
-            "close": "9:00"
+            "open": "17:00",
+            "close": "21:00"
           },
           "saturday": {
-            "open": "1:00",
-            "close": "9:00"
+            "open": "13:00",
+            "close": "21:00"
           }
         }
       },
@@ -199,16 +199,16 @@
         "cost": 10,
         "schedule": {
           "thursday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "friday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "4:00"
+            "open": "14:00",
+            "close": "16:00"
           }
         }
       },
@@ -231,16 +231,16 @@
         "cost": 10,
         "schedule": {
           "thursday": {
-            "open": "6:00",
-            "close": "8:00"
+            "open": "18:00",
+            "close": "20:00"
           },
           "friday": {
-            "open": "6:00",
-            "close": "8:00"
+            "open": "18:00",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "4:00"
+            "open": "14:00",
+            "close": "16:00"
           }
         }
       },
@@ -263,12 +263,12 @@
         "cost": 10,
         "schedule": {
           "friday": {
-            "open": "6:30",
-            "close": "8:30"
+            "open": "18:30",
+            "close": "20:30"
           },
           "saturday": {
-            "open": "3:30",
-            "close": "7:00"
+            "open": "15:30",
+            "close": "19:00"
           }
         }
       },
@@ -290,12 +290,12 @@
         "otp": true,
         "schedule": {
           "thursday": {
-            "open": "5:30",
-            "close": "8:00"
+            "open": "17:30",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "6:00"
+            "open": "14:00",
+            "close": "18:00"
           }
         }
       },
@@ -317,24 +317,24 @@
         "otp": true,
         "schedule": {
           "tuesday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "wednesday": {
-            "open": "5:00",
-            "closed": "8:00"
+            "open": "17:00",
+            "closed": "20:00"
           },
           "thursday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "friday": {
-            "open": "5:00",
-            "close": "8:00"
+            "open": "17:00",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "1:00",
-            "close": "4:00"
+            "open": "13:00",
+            "close": "16:00"
           }
         }
       },
@@ -357,20 +357,20 @@
         "cost": 10,
         "schedule": {
           "wednesday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "thursday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "friday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           },
           "saturday": {
-            "open": "5:30",
-            "close": "7:30"
+            "open": "17:30",
+            "close": "19:30"
           }
         }
       },
@@ -392,16 +392,16 @@
         "otp": true,
         "schedule": {
           "thursday": {
-            "open": "5:30",
-            "close": "8:00"
+            "open": "17:30",
+            "close": "20:00"
           },
           "friday": {
-            "open": "5:30",
-            "close": "8:00"
+            "open": "17:30",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "4:00"
+            "open": "14:00",
+            "close": "16:00"
           }
         }
       },
@@ -424,16 +424,16 @@
         "cost": 12,
         "schedule": {
           "friday": {
-            "open": "5:30",
-            "close": "8:00"
+            "open": "17:30",
+            "close": "20:00"
           },
           "saturday": {
-            "open": "2:00",
-            "close": "5:00"
+            "open": "14:00",
+            "close": "17:00"
           },
           "sunday": {
-            "open": "2:00", 
-            "close": "4:00"
+            "open": "14:00", 
+            "close": "16:00"
           }
         }
       },
