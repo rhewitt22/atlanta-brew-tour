@@ -16,7 +16,7 @@
         "logo":"images/sweetwater.png",
         "otp": false,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "wednesday": {
             "open": "17:30",
             "close": "19:30"
@@ -37,7 +37,7 @@
             "open": "14:30",
             "close": "16:30"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -56,7 +56,7 @@
         "logo":"images/mondaynight.jpg",
         "otp": false,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "monday": {
             "open": "17:30",
             "close": "19:30"
@@ -69,7 +69,7 @@
             "open": "14:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -88,7 +88,7 @@
         "logo":"images/threetaverns.jpg",
         "otp": false,
         "cost": 12,
-        "schedule": {
+        "schedule": [
           "friday": {
             "open": "17:30",
             "close": "20:00"
@@ -97,7 +97,7 @@
             "open": "14:30",
             "close": "16:30"
           }
-        },
+        ],
         "notes": "Ride your bike for $2 off!"
       },
       "geometry":{  
@@ -117,7 +117,7 @@
         "logo":"images/redbrick.jpg",
         "otp": false,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "monday": {
             "open": "17:00",
             "close": "20:00"
@@ -138,7 +138,7 @@
             "open": "13:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -157,7 +157,7 @@
         "images":"images/jekyll.jpg",
         "otp": true,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "tuesday": {
             "open": "17:00",
             "close": "21:00"
@@ -178,7 +178,7 @@
             "open": "13:00",
             "close": "21:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -197,7 +197,7 @@
         "logo":"images/redhare.jpg",
         "otp": true,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "thursday": {
             "open": "17:30",
             "close": "19:30"
@@ -210,7 +210,7 @@
             "open": "14:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -229,7 +229,7 @@
         "logo":"images/orpheus.jpg",
         "otp": false,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "thursday": {
             "open": "18:00",
             "close": "20:00"
@@ -242,7 +242,7 @@
             "open": "14:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -261,7 +261,7 @@
         "logo":"images/bluetarp.jpg",
         "otp": false,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "friday": {
             "open": "18:30",
             "close": "20:30"
@@ -270,7 +270,7 @@
             "open": "15:30",
             "close": "19:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -288,7 +288,7 @@
         "url":"www.jailhousebrewing.com",
         "logo":"images/jailhouse.jpg",
         "otp": true,
-        "schedule": {
+        "schedule": [
           "thursday": {
             "open": "17:30",
             "close": "20:00"
@@ -297,7 +297,7 @@
             "open": "14:00",
             "close": "18:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -315,7 +315,7 @@
         "url":"www.creaturecomfortsbeer.com",
         "logo":"images/creature.png",
         "otp": true,
-        "schedule": {
+        "schedule": [
           "tuesday": {
             "open": "17:00",
             "close": "20:00"
@@ -336,7 +336,7 @@
             "open": "13:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -355,7 +355,7 @@
         "logo":"images/terrapin.jpg",
         "otp": true,
         "cost": 10,
-        "schedule": {
+        "schedule": [
           "wednesday": {
             "open": "17:30",
             "close": "19:30"
@@ -372,7 +372,7 @@
             "open": "17:30",
             "close": "19:30"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -390,7 +390,7 @@
         "url":"www.reformationbrewery.com",
         "logo":"images/reformation.png",
         "otp": true,
-        "schedule": {
+        "schedule": [
           "thursday": {
             "open": "17:30",
             "close": "20:00"
@@ -403,7 +403,7 @@
             "open": "14:00",
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
@@ -422,7 +422,7 @@
         "logo":"images/wildheaven.jpg",
         "otp": false,
         "cost": 12,
-        "schedule": {
+        "schedule": [
           "friday": {
             "open": "17:30",
             "close": "20:00"
@@ -435,7 +435,7 @@
             "open": "14:00", 
             "close": "16:00"
           }
-        }
+        ]
       },
       "geometry":{  
         "type":"Point",
