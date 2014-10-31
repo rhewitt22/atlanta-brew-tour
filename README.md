@@ -12,9 +12,12 @@ Brewery tours are all over the map (pun intended) in terms of when they're offer
 
 ## Support your local breweries!
 
+
+### License 
+
 The MIT License (MIT)
 
-Copyright (c) [2014-2014] [Roy Hewitt]
+Copyright (c) 2014-2015 Roy Hewitt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
