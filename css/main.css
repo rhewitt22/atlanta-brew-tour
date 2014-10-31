@@ -109,9 +109,9 @@ html, body {
   height: 50%;
 }
 
-
-
-
+.logo {
+  max-width:200px;
+}
 
 
 

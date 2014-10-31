@@ -34,7 +34,7 @@
       {{#each features}}
       <div class="brewery"> 
         <a href="{{ properties.url }}"><h2>{{ properties.name }}</h2></a>
-        <img src="{{properties.logo}}"/>
+        <img class="logo" src="{{properties.logo}}"/>
         <p>Tours: {{#if properties.cost}}${{properties.cost}}{{/if}}</p>
         <ul>
         {{#each properties.schedule}}
