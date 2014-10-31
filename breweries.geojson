@@ -17,11 +17,26 @@
         "otp": false,
         "cost": 10,
         "schedule": {
-          "wednesday": ["5:30", "7:30"],
-          "thursday": ["5:30", "7:30"],
-          "friday": ["5:30", "7:30"],
-          "saturday": ["2:30", "4:30"],
-          "sunday": ["2:30", "4:30"]
+          "wednesday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "thursday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "friday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "saturday": {
+            "open": "3:30",
+            "close": "4:30"
+          },
+          "sunday": {
+            "open": "2:30",
+            "close": "4:30"
+          }
         }
       },
       "geometry":{  
@@ -42,9 +57,18 @@
         "otp": false,
         "cost": 10,
         "schedule": {
-          "monday": ["5:30", "7:30"],
-          "thursday": ["5:30", "7:30"],
-          "saturday": ["2:00", "4:00"]
+          "monday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "thursday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -65,8 +89,14 @@
         "otp": false,
         "cost": 12,
         "schedule": {
-          "friday": ["5:30", "8:00"],
-          "saturday": ["2:30", "4:30"]
+          "friday": {
+            "open": "5:30",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "2:30",
+            "close": "4:30"
+          }
         },
         "notes": "Ride your bike for $2 off!"
       },
@@ -88,11 +118,26 @@
         "otp": false,
         "cost": 10,
         "schedule": {
-          "monday": ["5:00", "8:00"],
-          "thursday": ["5:00", "8:00"],
-          "friday": ["5:00", "8:00"],
-          "saturday": ["11:00am", "5:00"],
-          "sunday": ["1:00", "4:00"]
+          "monday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "thursday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "friday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "11:00am",
+            "close": "5:00"
+          },
+          "sunday": {
+            "open": "1:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -113,11 +158,26 @@
         "otp": true,
         "cost": 10,
         "schedule": {
-          "tuesday": ["5:00", "9:00"],
-          "wednesday": ["5:00", "9:00"],
-          "thursday": ["5:00", "9:00"],
-          "friday": ["5:00", "9:00"],
-          "saturday": ["1:00", "9:00"]
+          "tuesday": {
+            "open": "5:00",
+            "close": "9:00"
+          },
+          "wednesday": {
+            "open": "5:00",
+            "close": "9:00"
+          },
+          "thursday": {
+            "open": "5:00",
+            "close": "9:00"
+          },
+          "friday": {
+            "open": "5:00",
+            "close": "9:00"
+          },
+          "saturday": {
+            "open": "1:00",
+            "close": "9:00"
+          }
         }
       },
       "geometry":{  
@@ -138,9 +198,18 @@
         "otp": true,
         "cost": 10,
         "schedule": {
-          "thursday": ["5:30", "7:30"],
-          "friday": ["5:30", "7:30"],
-          "saturday": ["2:00", "4:00"]
+          "thursday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "friday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -161,9 +230,18 @@
         "otp": false,
         "cost": 10,
         "schedule": {
-          "thursday": ["6:00", "8:00"],
-          "friday": ["6:00", "8:00"],
-          "saturday": ["2:00", "4:00"]
+          "thursday": {
+            "open": "6:00",
+            "close": "8:00"
+          },
+          "friday": {
+            "open": "6:00",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -184,8 +262,14 @@
         "otp": false,
         "cost": 10,
         "schedule": {
-          "friday": ["6:30", "8:30"],
-          "saturday": ["3:30", "7:00"]
+          "friday": {
+            "open": "6:30",
+            "close": "8:30"
+          },
+          "saturday": {
+            "open": "3:30",
+            "close": "7:00"
+          }
         }
       },
       "geometry":{  
@@ -205,8 +289,14 @@
         "logo":"images/breweries/jailhouse.jpg",
         "otp": true,
         "schedule": {
-          "thursday": ["5:30", "8:00"],
-          "saturday": ["2:00", "6:00"]
+          "thursday": {
+            "open": "5:30",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "6:00"
+          }
         }
       },
       "geometry":{  
@@ -226,11 +316,26 @@
         "logo":"images/breweries/creature.png",
         "otp": true,
         "schedule": {
-          "tuesday": ["5:00", "8:00"],
-          "wednesday": ["5:00", "8:00"],
-          "thursday": ["5:00", "8:00"],
-          "friday": ["5:00", "8:00"],
-          "saturday": ["1:00", "4:00"]
+          "tuesday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "wednesday": {
+            "open": "5:00",
+            "closed": "8:00"
+          },
+          "thursday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "friday": {
+            "open": "5:00",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "1:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -251,10 +356,22 @@
         "otp": true,
         "cost": 10,
         "schedule": {
-          "wednesday": ["5:30", "7:30"],
-          "thursday": ["5:30", "7:30"],
-          "friday": ["5:30", "7:30"],
-          "saturday": ["5:30", "7:30"]
+          "wednesday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "thursday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "friday": {
+            "open": "5:30",
+            "close": "7:30"
+          },
+          "saturday": {
+            "open": "5:30",
+            "close": "7:30"
+          }
         }
       },
       "geometry":{  
@@ -274,9 +391,18 @@
         "logo":"images/breweries/reformation.png",
         "otp": true,
         "schedule": {
-          "thursday": ["5:30", "8:00"],
-          "friday": ["5:30", "8:00"],
-          "saturday": ["2:00", "4:00"]
+          "thursday": {
+            "open": "5:30",
+            "close": "8:00"
+          },
+          "friday": {
+            "open": "5:30",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  
@@ -297,9 +423,18 @@
         "otp": false,
         "cost": 12,
         "schedule": {
-          "friday": ["5:30", "8:00"],
-          "saturday": ["2:00", "5:00"],
-          "sunday": ["2:00", "4:00"]
+          "friday": {
+            "open": "5:30",
+            "close": "8:00"
+          },
+          "saturday": {
+            "open": "2:00",
+            "close": "5:00"
+          },
+          "sunday": {
+            "open": "2:00", 
+            "close": "4:00"
+          }
         }
       },
       "geometry":{  

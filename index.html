@@ -27,14 +27,19 @@
 
       <section id="map"></section>
 
-      <section id="listing">
+      <section id="listing"></section>
       
-      </section>
-      
+
       <script id="template" type="text/x-handlebars-template">​
       {{#each features}}
       <div class="brewery"> 
-        <h2>{{ properties.name }}</h2>
+        <a href="{{ properties.url }}"><h2>{{ properties.name }}</h2></a>
+        <p>Tours</p>
+        <ul>
+        {{#each properties.schedule}}
+          <li>{{capitalize @key}}: {{this.open}} - {{this.close}}</li>
+        {{/each}}
+        </ul>
       </div>​
       {{/each}}
 ​      </script>

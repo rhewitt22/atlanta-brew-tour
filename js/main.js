@@ -6,7 +6,6 @@
     template = Handlebars.compile(templateScript);  
      $listing = $("#listing");
 
-console.log(templateScript);
   function getData() {
     $.getJSON("breweries.geojson", function (data) {
       breweries = data;
@@ -20,6 +19,7 @@ console.log(templateScript);
 
   function createMap() {
     map = L.map('map');
+    map.scrollWheelZoom.disable();
     map.fitBounds(markers.getBounds());
     addLayers();
   }
@@ -35,5 +35,9 @@ console.log(templateScript);
     map.addLayer(markers);
   }
 
+  Handlebars.registerHelper('capitalize', function(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  });
+  
   getData();
 })();
