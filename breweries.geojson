@@ -353,7 +353,7 @@
           { 
           	"day": "wednesday",
             "open": "17:00",
-            "closed": "20:00"
+            "close": "20:00"
           },
           { 
           	"day": "thursday",
