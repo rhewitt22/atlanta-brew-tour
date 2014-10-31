@@ -12,7 +12,7 @@
       "properties":{  
         "name":"SweetWater Brewing Company",
         "type":"brewery",
-        "url":"www.sweetwaterbrew.com",
+        "url":"http://www.sweetwaterbrew.com",
         "logo":"images/sweetwater.png",
         "otp": false,
         "cost": 10,
@@ -56,8 +56,8 @@
       "properties":{  
         "name":"Monday Night Brewing",
         "type":"brewery",
-        "url":"www.mondaynightbrewing.com",
-        "logo":"images/mondaynight.jpg",
+        "url":"http://www.mondaynightbrewing.com",
+        "logo":"images/mondaynight.png",
         "otp": false,
         "cost": 10,
         "schedule": [
@@ -91,8 +91,8 @@
       "properties":{  
         "name":"Three Taverns Brewery",
         "type":"brewery",
-        "url":"www.threetavernsbrewery.com",
-        "logo":"images/threetaverns.jpg",
+        "url":"http://www.threetavernsbrewery.com",
+        "logo":"images/threetaverns.png",
         "otp": false,
         "cost": 12,
         "schedule": [
@@ -122,8 +122,8 @@
       "properties":{  
         "name":"Red Brick Brewing",
         "type":"brewery",
-        "url":"www.redbrickbrewing.com",
-        "logo":"images/redbrick.jpg",
+        "url":"http://www.redbrickbrewing.com",
+        "logo":"images/redbrick.png",
         "otp": false,
         "cost": 10,
         "schedule": [
@@ -167,8 +167,8 @@
       "properties":{  
         "name":"Jekyll Brewing",
         "type":"brewery",
-        "url":"www.jekyllbrewing.com",
-        "images":"images/jekyll.jpg",
+        "url":"http://www.jekyllbrewing.com",
+        "logo":"images/jekyll.png",
         "otp": true,
         "cost": 10,
         "schedule": [
@@ -212,8 +212,8 @@
       "properties":{  
         "name":"Red Hare Brewing",
         "type":"brewery",
-        "url":"www.redharebrewing.com",
-        "logo":"images/redhare.jpg",
+        "url":"http://www.redharebrewing.com",
+        "logo":"images/redhare.png",
         "otp": true,
         "cost": 10,
         "schedule": [
@@ -247,8 +247,8 @@
       "properties":{  
         "name":"Orpheus Brewing",
         "type":"brewery",
-        "url":"www.orpheusbrewing.com",
-        "logo":"images/orpheus.jpg",
+        "url":"http://www.orpheusbrewing.com",
+        "logo":"images/orpheus.png",
         "otp": false,
         "cost": 10,
         "schedule": [
@@ -282,8 +282,8 @@
       "properties":{  
         "name":"BlueTarp Brewing Company",
         "type":"brewery",
-        "url":"www.bluetarpbrew.com",
-        "logo":"images/bluetarp.jpg",
+        "url":"http://www.bluetarpbrew.com",
+        "logo":"images/bluetarp.png",
         "otp": false,
         "cost": 10,
         "schedule": [
@@ -312,8 +312,8 @@
       "properties":{  
         "name":"Jailhouse Brewing Company",
         "type":"brewery",
-        "url":"www.jailhousebrewing.com",
-        "logo":"images/jailhouse.jpg",
+        "url":"http://www.jailhousebrewing.com",
+        "logo":"images/jailhouse.png",
         "otp": true,
         "schedule": [
           { 
@@ -341,7 +341,7 @@
       "properties":{  
         "name":"Creature Comforts Brewing Company",
         "type":"brewery",
-        "url":"www.creaturecomfortsbeer.com",
+        "url":"http://www.creaturecomfortsbeer.com",
         "logo":"images/creature.png",
         "otp": true,
         "schedule": [
@@ -385,8 +385,8 @@
       "properties":{  
         "name":"Terrapin Beer Company",
         "type":"brewery",
-        "url":"www.terrapinbeer.com",
-        "logo":"images/terrapin.jpg",
+        "url":"http://www.terrapinbeer.com",
+        "logo":"images/terrapin.png",
         "otp": true,
         "cost": 10,
         "schedule": [
@@ -425,7 +425,7 @@
       "properties":{  
         "name":"Reformation Brewery",
         "type":"brewery",
-        "url":"www.reformationbrewery.com",
+        "url":"http://www.reformationbrewery.com",
         "logo":"images/reformation.png",
         "otp": true,
         "schedule": [
@@ -459,8 +459,8 @@
       "properties":{  
         "name":"Wild Heaven Craft Beers",
         "type":"brewery",
-        "url":"www.wildheavencraftbeers.com",
-        "logo":"images/wildheaven.jpg",
+        "url":"http://www.wildheavencraftbeers.com",
+        "logo":"images/wildheaven.png",
         "otp": false,
         "cost": 12,
         "schedule": [

@@ -123,6 +123,10 @@ a:hover {
  * and Chrome.
  */
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato';
+}
+
 h1 {
     font-size: 1.75em;
     margin: 0.67em 0;
