@@ -9,8 +9,15 @@
   function getData() {
     $.getJSON("breweries.geojson", function (data) {
       breweries = data;
-      markers = L.geoJson(breweries);
-      console.log(breweries);
+
+      markers = L.geoJson(breweries, {
+        // pointToLayer: function (feature, latlng) {
+        //   return L.circleMarker(latlng, geojsonMarkerOptions);
+        // },
+        onEachFeature: function (feature, layer) {
+          layer.bindPopup(feature.properties.name);
+        }
+      });
 
       createMap();
       $listing.append(template(breweries));
@@ -38,6 +45,6 @@
   Handlebars.registerHelper('capitalize', function(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);
   });
-  
+
   getData();
 })();
