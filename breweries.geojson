@@ -17,23 +17,27 @@
         "otp": false,
         "cost": 10,
         "schedule": [
-          "wednesday": {
+          { 
+          	"day": "wednesday",
             "open": "17:30",
             "close": "19:30"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "19:30"
           },
-          "friday": {
+          { "day": "friday",
             "open": "17:30",
             "close": "19:30"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:30",
             "close": "16:30"
           },
-          "sunday": {
+          { 
+          	"day": "sunday",
             "open": "14:30",
             "close": "16:30"
           }
@@ -57,15 +61,18 @@
         "otp": false,
         "cost": 10,
         "schedule": [
-          "monday": {
+          { 
+          	"day": "monday",
             "open": "17:30",
             "close": "19:30"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "19:30"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "16:00"
           }
@@ -89,11 +96,13 @@
         "otp": false,
         "cost": 12,
         "schedule": [
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:30",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:30",
             "close": "16:30"
           }
@@ -118,23 +127,28 @@
         "otp": false,
         "cost": 10,
         "schedule": [
-          "monday": {
+          { 
+          	"day": "monday",
             "open": "17:00",
             "close": "20:00"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:00",
             "close": "20:00"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:00",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "11:00",
             "close": "17:00"
           },
-          "sunday": {
+          { 
+          	"day": "sunday",
             "open": "13:00",
             "close": "16:00"
           }
@@ -158,23 +172,28 @@
         "otp": true,
         "cost": 10,
         "schedule": [
-          "tuesday": {
+          { 
+          	"day": "tuesday",
             "open": "17:00",
             "close": "21:00"
           },
-          "wednesday": {
+          { 
+          	"day": "wednesday",
             "open": "17:00",
             "close": "21:00"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:00",
             "close": "21:00"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:00",
             "close": "21:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "13:00",
             "close": "21:00"
           }
@@ -198,15 +217,18 @@
         "otp": true,
         "cost": 10,
         "schedule": [
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "19:30"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:30",
             "close": "19:30"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "16:00"
           }
@@ -230,15 +252,18 @@
         "otp": false,
         "cost": 10,
         "schedule": [
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "18:00",
             "close": "20:00"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "18:00",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "16:00"
           }
@@ -262,11 +287,13 @@
         "otp": false,
         "cost": 10,
         "schedule": [
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "18:30",
             "close": "20:30"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "15:30",
             "close": "19:00"
           }
@@ -289,11 +316,13 @@
         "logo":"images/jailhouse.jpg",
         "otp": true,
         "schedule": [
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "18:00"
           }
@@ -316,23 +345,28 @@
         "logo":"images/creature.png",
         "otp": true,
         "schedule": [
-          "tuesday": {
+          { 
+          	"day": "tuesday",
             "open": "17:00",
             "close": "20:00"
           },
-          "wednesday": {
+          { 
+          	"day": "wednesday",
             "open": "17:00",
             "closed": "20:00"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:00",
             "close": "20:00"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:00",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "13:00",
             "close": "16:00"
           }
@@ -356,19 +390,23 @@
         "otp": true,
         "cost": 10,
         "schedule": [
-          "wednesday": {
+          { 
+          	"day": "wednesday",
             "open": "17:30",
             "close": "19:30"
           },
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "19:30"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:30",
             "close": "19:30"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "17:30",
             "close": "19:30"
           }
@@ -391,15 +429,18 @@
         "logo":"images/reformation.png",
         "otp": true,
         "schedule": [
-          "thursday": {
+          { 
+          	"day": "thursday",
             "open": "17:30",
             "close": "20:00"
           },
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:30",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "16:00"
           }
@@ -423,15 +464,18 @@
         "otp": false,
         "cost": 12,
         "schedule": [
-          "friday": {
+          { 
+          	"day": "friday",
             "open": "17:30",
             "close": "20:00"
           },
-          "saturday": {
+          { 
+          	"day": "saturday",
             "open": "14:00",
             "close": "17:00"
           },
-          "sunday": {
+          { 
+          	"day": "sunday",
             "open": "14:00", 
             "close": "16:00"
           }
