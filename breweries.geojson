@@ -6,7 +6,7 @@
       "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
     }
   },
-  "features":[  
+  "features":[
     {  
       "type":"Feature",
       "properties":{  
@@ -45,9 +45,38 @@
       },
       "geometry":{  
         "type":"Point",
-        "coordinates":[  
+        "coordinates":[
           -84.38,
           33.808
+        ]
+      }
+    },
+    {  
+      "type":"Feature",
+      "properties":{  
+        "name":"Second Self Beer Company",
+        "type":"brewery",
+        "url":"http://www.secondselfbeer.com/",
+        "logo":"images/sweetwater.png",
+        "otp": false,
+        "cost": 12,
+        "schedule": [
+          { "day": "friday",
+            "open": "17:30",
+            "close": "19:30"
+          },
+          { 
+          	"day": "saturday",
+            "open": "14:00",
+            "close": "16:00"
+          }
+        ]
+      },
+      "geometry":{  
+        "type":"Point",
+        "coordinates":[  
+          -84.430122,
+          33.806571
         ]
       }
     },
