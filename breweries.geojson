@@ -57,7 +57,7 @@
         "name":"Second Self Beer Company",
         "type":"brewery",
         "url":"http://www.secondselfbeer.com/",
-        "logo":"images/sweetwater.png",
+        "logo":"images/secondself.png",
         "otp": false,
         "cost": 12,
         "schedule": [
